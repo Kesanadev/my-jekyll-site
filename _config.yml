@@ -20,9 +20,9 @@ social:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+  - jekyll-remote-theme
 # การตั้งค่าธีม
-theme: jekyll-theme-cayman # เลือกธีมที่คุณต้องการ เช่น minima, cayman, หรือ minimal
+remote_theme: pages-themes/cayman@v0.2.0 # เลือกธีมที่คุณต้องการ เช่น minima, cayman, หรือ minimal
 
 # ค่าต่าง ๆ ของ Markdown
 markdown: kramdown
