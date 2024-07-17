@@ -22,7 +22,7 @@ plugins:
   - jekyll-seo-tag
 
 # การตั้งค่าธีม
-remote_theme: "pages-themes/minimal" # เลือกธีมที่คุณต้องการ เช่น minima, cayman, หรือ minimal
+theme: jekyll-theme-cayman # เลือกธีมที่คุณต้องการ เช่น minima, cayman, หรือ minimal
 
 # ค่าต่าง ๆ ของ Markdown
 markdown: kramdown
