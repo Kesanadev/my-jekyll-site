@@ -9,7 +9,7 @@ author:
 
 # URL และ Base URL
 url: "https://kesanadev.github.io"
-baseurl: "/ชื่อ repository ของคุณ" # ปรับตามชื่อ repository ของคุณ
+baseurl: "/my-jekyll-site" # ปรับตามชื่อ repository ของคุณ
 
 # โซเชียลมีเดีย
 social:
