@@ -1,0 +1,37 @@
+# _config.yml
+
+# ข้อมูลเว็บไซต์
+title: "ชื่อเว็บไซต์ของคุณ"
+description: "คำอธิบายเกี่ยวกับเว็บไซต์ของคุณ"
+author:
+  name: "ชื่อผู้เขียน"
+  email: "อีเมลของผู้เขียน"
+
+# URL และ Base URL
+url: "https://ชื่อผู้ใช้ของคุณ.github.io"
+baseurl: "/ชื่อ repository ของคุณ" # ปรับตามชื่อ repository ของคุณ
+
+# โซเชียลมีเดีย
+social:
+  twitter: "ชื่อผู้ใช้ Twitter ของคุณ"
+  github: "ชื่อผู้ใช้ GitHub ของคุณ"
+
+# การตั้งค่า Jekyll Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# การตั้งค่าธีม
+remote_theme: "pages-themes/minimal" # เลือกธีมที่คุณต้องการ เช่น minima, cayman, หรือ minimal
+
+# ค่าต่าง ๆ ของ Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# การตั้งค่าอื่น ๆ
+paginate: 5
+paginate_path: "/page:num/"
+
+# การตั้งค่า Custom Variables
+custom_variable: "ค่าที่คุณต้องการกำหนดเอง"
